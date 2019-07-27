@@ -1,0 +1,25 @@
+<div class="board">
+    <div class="board-header">
+        <p class="board-name">{{Board?.name}}</p>
+    </div>
+    <div class="board-wrapper">
+        <div class="board-columns" cdkDropListGroup>
+
+            <div class="board-column" *ngFor="let column of Board.columns">
+                    <div class="columns">
+                            <div class="column is-four-fifths column-title">{{column.name}}</div>
+                            <div class="column">{{column.tasks.length}}</div>
+                    </div>
+                    <div class="tasks-container"
+                    cdkDropList
+                    [cdkDropListData]="column.tasks"
+                    (cdkDropListDropped)="drop($event)">
+                        <app-task cdkDrag
+                            *ngFor="let task of column.tasks"
+                            [taskModel]="task"
+                        ></app-task>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>

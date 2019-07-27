@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Titillium+Web:400,700&display=swap');
+
+@import './custom-styles.scss';
+@import '../node_modules/bulma/bulma.sass';
+
+$family-sans-serif: 'Titillium Web', sans-serif;
+
+
+/* GLOBAL STYLES */
+html, body {
+    height: 100%;
+}
+
+html {
+    background-image: url('./assets/Protruding-Squares.svg');
+    overflow-y: auto !important;
+}
