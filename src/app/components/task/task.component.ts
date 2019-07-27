@@ -20,6 +20,6 @@ export class TaskComponent implements OnInit {
   }
 
   public get Id():string{
-    return this.taskModel.Id.substring(0,6);
+    return (<Task>this.taskModel).Id.substring(0,6);
   }
 }

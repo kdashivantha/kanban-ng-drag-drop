@@ -7,8 +7,8 @@
 
             <div class="board-column" *ngFor="let column of Board.columns">
                     <div class="columns">
-                            <div class="column is-four-fifths column-title">{{column.name}}</div>
-                            <div class="column">{{column.tasks.length}}</div>
+                            <div class="column is-10">{{column.name}}</div>
+                            <div class="column is-2">{{column.tasks.length}}</div>
                     </div>
                     <div class="tasks-container"
                     cdkDropList
