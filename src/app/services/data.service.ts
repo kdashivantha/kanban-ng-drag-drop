@@ -24,16 +24,12 @@ export class DataService {
     ]),
     new Column('InProgress', [
       new Task("Ad laboris aute dolor voluptate commodo dolore",5,"Bertie Kidd"),
-      new Task("Lorem commodo ad consectetur sint consequat et",3,"Linda Campbell"),
       new Task("Ad exercitation non consequat cupidatat dolor adipisicing",1,"Kane Foley")
     ]),
     new Column('Done', [
       new Task("Adipisicing sunt occaecat et sunt reprehenderit magna fugiat",5,"Jimenez Maxwell"),
       new Task("Proident ut adipisicing est ex duis. Excepteur aliquip nostrud",3,"Kane Foley"),
       new Task("Commodo nulla nisi consectetur amet incididunt cupidatat in",1,"Linda Campbell"),
-      new Task("Proident ut adipisicing est ex duis. Excepteur aliquip nostrud",3,"Jimenez Maxwell"),
-      new Task("Incididunt irure officia ut amet irure ad. Et labore exercitation",8,"Bertie Kidd"),
-      new Task("Cillum ut do mollit ut aute nisi consectetur duis ut",5,"Linda Campbell")
     ])
   ]);
 

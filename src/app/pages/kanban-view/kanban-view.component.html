@@ -6,7 +6,7 @@
         <div class="board-columns" cdkDropListGroup>
 
             <div class="board-column" *ngFor="let column of Board.columns">
-                    <div class="columns">
+                    <div class="columns column-title">
                             <div class="column is-10">{{column.name}}</div>
                             <div class="column is-2">{{column.tasks.length}}</div>
                     </div>
