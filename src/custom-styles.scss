@@ -1,3 +1,12 @@
+.navbar{
+    background-color: #ff9800;
+
+    h1{
+        font-size: 24px;
+        font-weight: 700;
+    }
+}
+
 .board{
     display: flex;
     flex-direction: column;
@@ -7,7 +16,7 @@
 
 
     .board-header {
-        background: rgba(gray, 0.5);
+        background: #b0bec5;
         padding: 8px 15px;
     
         .board-name {
@@ -38,7 +47,7 @@
 
                 border-radius: 4px;
 
-                background: rgba(143, 188, 143, 0.75);
+                background: rgba(255, 160, 0, 0.6);
 
                 &:not(:first-child) {
                     margin-left: 0;
@@ -91,7 +100,7 @@
 }
 .cdk-drag-placeholder {
     background: rgba(white, 0.5);
-    border: dashed 2px rgb(143, 188, 143);
+    border: dashed 2px #b0bec5;
     min-height: 60px;
     transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
 

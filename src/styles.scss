@@ -2,8 +2,8 @@
 // Import Google Fonts
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Titillium+Web:400,700&display=swap');
 
-@import './custom-styles.scss';
 @import '../node_modules/bulma/bulma.sass';
+@import './custom-styles.scss';
 
 $family-sans-serif: 'Titillium Web', sans-serif;
 
@@ -14,6 +14,6 @@ html, body {
 }
 
 html {
-    background-image: url('./assets/Protruding-Squares.svg');
+    background-color: rgba(255, 255, 179, 0.5);
     overflow-y: auto !important;
 }
